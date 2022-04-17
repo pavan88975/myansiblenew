@@ -24,4 +24,6 @@
     tags: createfile
   - name: copy dynamic file
     template:
-     src: myindex
+      src: myindexfile.j2
+      dest: /var/www/html/index.html
+      tags: copyDynamic
